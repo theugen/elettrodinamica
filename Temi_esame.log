@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.8.29)  9 SEP 2016 19:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2016/dev) (preloaded format=pdflatex 2016.8.29)  10 SEP 2016 07:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -295,33 +295,53 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/home/eugen/.texlive2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-] (./Temi_esame.toc)
+] (./Temi_esame.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 5.
+)
 \tf@toc=\write3
 \openout3 = `Temi_esame.toc'.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 18.
- [3] (./Temi_esame.aux) ) 
+ [3] [4
+
+] [5] [6
+
+]
+Overfull \hbox (126.20892pt too wide) detected at line 76
+[] \OT1/cmr/m/n/10.95 = [] = [] \OMS/cmsy/m/n/10.95 ^^@ [][] \OT1/cmr/m/n/10.95
+ = [] \OMS/cmsy/m/n/10.95 ^^@ [] ^^A [] \OT1/cmr/m/n/10.95 = [] [] \OMS/cmsy/m/
+n/10.95 ^^@ [] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 o
+ []
+
+[7] (./Temi_esame.aux) ) 
 Here is how much of TeX's memory you used:
- 1458 strings out of 493126
- 15699 string characters out of 6138646
- 78948 words of memory out of 5000000
- 4961 multiletter control sequences out of 15000+600000
- 14961 words of font info for 36 fonts, out of 8000000 for 9000
+ 1460 strings out of 493126
+ 15724 string characters out of 6138646
+ 82948 words of memory out of 5000000
+ 4962 multiletter control sequences out of 15000+600000
+ 15744 words of font info for 37 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 23i,6n,23p,775b,179s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfour/j
-knappen/ec/ecti1095.600pk> </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfour/
-jknappen/ec/ecrm0800.600pk> </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfour
-/jknappen/ec/ecbx1440.600pk> </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfou
-r/jknappen/ec/ecbx2488.600pk> </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfo
-ur/jknappen/ec/ecrm1095.600pk> </home/eugen/.texlive2015/texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecrm1200.600pk> </home/eugen/.texlive2015/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecrm1728.600pk>
-Output written on Temi_esame.pdf (3 pages, 36607 bytes).
+ 23i,7n,23p,775b,188s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfour/pu
+blic/cm/cmmi8.600pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/d
+pi600/cmr8.pk> </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfour/public/cm/cm
+sy10.657pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cme
+x10.pk> </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfour/public/cm/cmmi10.65
+7pk> </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfour/public/cm/cmr10.657pk>
+ </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk
+> </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1095.600p
+k> </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600
+pk> </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsl1095.60
+0pk> </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1095.6
+00pk> </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.
+600pk> </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095
+.600pk> </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm120
+0.600pk> </home/eugen/.texlive2015/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm17
+28.600pk>
+Output written on Temi_esame.pdf (7 pages, 65362 bytes).
 PDF statistics:
- 154 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 278 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

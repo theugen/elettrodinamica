@@ -10,14 +10,71 @@
 \title{Temi d'esame di elettrodinamica}
 \maketitle
 \tableofcontents
-\section{Disclaimer}
+
+\chapter*{Disclaimer}
 Questa è una raccolta di esercizi svolti tratti da temi d'esame del corso
 di elettrodinamica classica tenuto presso il cdl di fisica dell'Università
 degli Studi di Milano.
 Essendo stati svolti da me senza correzione da parte di terzi, ed essendo
 stati trascritti in \LaTeX esclusivamente per facilitare la revisione personale (ovvero, da parte mia) di
 concetti e modi operandi, non hanno la pretesa di correttezza nè tantomeno
-di completezza. Per cui, \emph{TRY THIS AT HOME!}
+di completezza. 
+La risoluzione dei temi d'esame fino al 2013 è stata pesantemente aiutata dalla
+versione di Giuliano Giudici già esistente.
+
+\emph{TRY THIS AT HOME!}
 Qualsiasi segnalazione di errori è benvenuta e può essere fatta tramite 
-\emph{pull request} su github.com/theugen.
+\emph{pull request} su github.com/theugen/elettrodinamica.
+
+\addcontentsline{toc}{chapter}{Disclaimer}
+\chapter*{09/07/2012}
+\section*{Esercizio 3}
+Si mostri che l'accelerazione di una particella di massa m e carica q che si muove con velocità
+\textbf v sotto l'azione dei campi elettromagnetici \textbf E e \textbf B può essere scritta come
+
+\begin{equation}
+\bar a = \frac{q}{m} \sqrt{1 - \beta^2} [\bar E + \bar{\beta} \wedge \bar B - \bar \beta (\bar \beta \cdot \bar E)]
+\end{equation}
+
+Non ho informazioni sulla mutua disposizione dei campi elettromagnetici, provo
+a ragionare in termini più generali.
+
+\begin{equation}
+\frac{dp^\mu}{dt} = m 
+\left( \begin{array}{c}
+\dot \gamma c \\
+\dot \gamma \bar v + \gamma \bar{\dot v}
+\end{array} \right)
+ = F^\mu =
+\left( \begin{array}{c}
+q \bar \beta \cdot \bar E \\
+q(\bar E + \bar \beta \wedge \bar B)
+\end{array} \right)
+\end{equation}
+
+Conoscendo la definizione di $\gamma$ posso ricavare $\beta$ invertendo la relazione
+
+\begin{equation}
+\gamma = \frac{1}{\sqrt{1-\beta^2}} \Rightarrow \beta= \pm \frac{\sqrt{1-\gamma^2}}{\gamma}
+\end{equation}
+
+Calcolo $\dot \gamma$ dalla componente temporale del quadrivettore:
+
+\begin{equation}
+\dot \gamma = \frac{q\bar \beta \cdot \bar E}{mc}
+\end{equation}
+
+Ora, uguagliando le componenti spaziali dei quadrivettori, posso ricavare l'accelerazione:
+
+\begin{equation}
+\bar{\dot v} = \bar a = \frac{q(\bar E + \bar \beta \wedge \bar B)}{m \gamma} - \dot \gamma \bar v =
+\frac{q(\bar E + \bar \beta \wedge \bar B)}{m \gamma} - \frac{q \bar \beta \cdot \bar E}{mc} 
+\cdot \frac{c \sqrt(1-\gamma^2)}{\gamma} = \\
+\frac{q(\bar E + \bar \beta \wedge \bar B)}{m \gamma} -
+\frac{q\bar \beta \cdot \bar E \sqrt{1-\gamma^2}}{m\gamma^2} =
+o
+\end{equation}
+
+\addcontentsline{toc}{chapter}{09/07/2012}
+\addcontentsline{toc}{section}{Esercizio 3}
 \end{document}
