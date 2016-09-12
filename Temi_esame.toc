@@ -1,5 +1,5 @@
 \select@language {italian}
 \select@language {italian}
-\contentsline {chapter}{Disclaimer}{6}
+\contentsline {chapter}{Disclaimer}{5}
 \contentsline {chapter}{09/07/2012}{7}
 \contentsline {section}{Esercizio 3}{7}

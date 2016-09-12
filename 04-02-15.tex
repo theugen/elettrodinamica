@@ -1,0 +1,32 @@
+\chapter*{04/02/2015}
+\section*{Esercizio 3}
+Nel sistema di riferimento K del laboratorio sono presenti un campo elettrico 
+costante ed uniforme $\bar E = E \hat e_y$ ed un campo magnetico costante ed
+uniforme $\bar B = \frac{5}{3} E \hat e_z $. Una particella di carica q e massa
+m parte da ferma dall'origine all'istante t=0. Calcolare dopo quanto tempo la 
+particella passa nuovamente per un punto dell'asse x.
+
+\vspace{5 mm} % spaziatura tra il testo dell'esercizio e la risoluzione
+
+Sono nel caso di campi $\bar E$, $\bar B$ entrambi non nulli, costanti, uniformi,
+ortogonali tra loro.
+Essendo B>E, posso mettermi in un sistema di riferimento K' in cui $\bar E'=0$
+facendo un boost con una velocit\`a $\bar v$ giacente nel piano ortogonale
+a quello identificato da $\bar E$ e $\bar B$:
+\begin{equation}
+\bar v = c \frac{\bar E \wedge \bar B}{B^2}
+\end{equation}
+\begin{equation}
+\begin{cases}
+E'_{\parallel} & = E_{\parallel} = 0 \\
+B'_{\parallel} & = B_{\parallel} = 0 \\
+E'_{\bot} & = \gamma(\bar E + \bar\beta \wedge \bar B)= \gamma(\bar E + \frac{\bar E \wedge \bar B 
+\wedge \bar B}{B^2}) = \gamma(\bar E - \bar E) = 0 \\
+
+B'_{\bot} & = \gamma(\bar B - \frac{\bar E \wedge \bar B 
+\wedge \bar E}{B^2}) = \frac{\bar B}{\gamma} = (\frac{B^2-E^2}{B^2})^\frac{1}{2} \bar B\\
+\end{cases}
+\end{equation}
+
+Nel sistema di riferimento in movimento ho solo campo magnetico e vedo la carica muoversi nel
+piano con velocit\`a $-\bar v$ lungo x.
