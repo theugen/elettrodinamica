@@ -1,0 +1,57 @@
+\addcontentsline{toc}{chapter}{Disclaimer}
+\chapter*{09/07/2012}
+\section*{Esercizio 3}
+Si mostri che l'accelerazione di una particella di massa m e carica q che si muove con velocità
+\textbf v sotto l'azione dei campi elettromagnetici \textbf E e \textbf B può essere scritta come
+
+\begin{equation}
+\bar a = \frac{q}{m} \sqrt{1 - \beta^2} [\bar E + \bar{\beta} \wedge \bar B - \bar \beta (\bar \beta \cdot \bar E)]
+\end{equation}
+
+Non ho informazioni sulla mutua disposizione dei campi elettromagnetici, provo
+a ragionare in termini più generali.
+
+\begin{equation}
+\frac{dp^\mu}{dt} = m 
+\left( \begin{array}{c}
+\dot \gamma c \\
+\dot \gamma \bar v + \gamma \bar{\dot v}
+\end{array} \right)
+ = F^\mu =
+\left( \begin{array}{c}
+q \bar \beta \cdot \bar E \\
+q(\bar E + \bar \beta \wedge \bar B)
+\end{array} \right)
+\end{equation}
+
+Conoscendo la definizione di $\gamma$ posso ricavare $\beta$ invertendo la relazione
+
+\begin{equation}
+\gamma = \frac{1}{\sqrt{1-\beta^2}} \Rightarrow \beta= \pm \frac{\sqrt{1-\gamma^2}}{\gamma}
+\end{equation}
+
+Calcolo $\dot \gamma$ dalla componente temporale del quadrivettore:
+
+\begin{equation}
+\dot \gamma = \frac{q\bar \beta \cdot \bar E}{mc}
+\end{equation}
+
+Ora, uguagliando le componenti spaziali dei quadrivettori, posso ricavare l'accelerazione:
+
+\begin{equation}
+\begin{split}
+\bar{\dot v}& = \bar a = \frac{q(\bar E + \bar \beta \wedge \bar B)}{m \gamma} - \dot \gamma \bar v =
+\frac{q(\bar E + \bar \beta \wedge \bar B)}{m \gamma} - \frac{q \bar \beta \cdot \bar E}{mc} 
+\cdot \frac{c \sqrt(1-\gamma^2)}{\gamma} = \\
+& = \frac{q(\bar E + \bar \beta \wedge \bar B)}{m \gamma} -
+\frac{q\bar \beta \cdot \bar E \sqrt{1-\gamma^2}}{m\gamma^2} =
+\frac{q}{m\gamma}[\bar E + \bar \beta \wedge \bar B - \bar \beta \cdot \bar E \frac{\sqrt{1-\gamma^2}}{\gamma}]=\\
+& = \frac{q}{m\gamma}[\bar E + \bar \beta \wedge \bar B - \bar \beta (\bar \beta \cdot \bar E)] =  
+\frac{q \sqrt{1-\beta^2}}{m}[\bar E + \bar \beta \wedge \bar B - \bar \beta (\bar \beta \cdot \bar E)] 
+\end{split}
+\end{equation}
+
+dove nell'ultimo passaggio ho usato il fatto che $\gamma^{-1} = \sqrt{1-\beta^2}$.
+
+\addcontentsline{toc}{chapter}{09/07/2012}
+\addcontentsline{toc}{section}{Esercizio 3}
